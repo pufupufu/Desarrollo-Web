@@ -4,386 +4,525 @@
     <title>Apunte de Etiquetas de HTML</title>
 </head>
 <big>
-
-    <body background="imagenes/tablas3.jpg" text="white" link="Green" vlink="Teal">
-        <h1>CONTENIDO</h1>
-        <ol>
-            <li><a href="#encabezados">Encabezados</a></li>
-            <li><a href="#parrafos">P&aacute;rrafos</a></li>
-            <li><a href="#lineasHorizontales">L&iacute;neas horizontales</a></li>
-            <li><a href="#imagenes">Im&aacute;genes</a></li>
-            <li>
-                <a href="#etiquetasFisicas">Etiquetas de estilo f&iacute;sico</a>
-            </li>
-            <li>
-                <a href="#etiquetasLogicas">Etiquetas de estilo l&oacute;gico</a>
-            </li>
-            <li>
-                <a href="#caracteresEspeciales">Acentos y caracteres especiales</a>
-            </li>
-            <li><a href="#listas">Listas</a></li>
-            <li><a href="#comentarios">Comentarios</a></li>
-            <li><a href="#enlacesHipertexto">Enlaces hipertexto</a></li>
-            <li><a href="#colores">Color en la web</a></li>
-        </ol>
-        <p>
-            Todos los items listados anteriormente son parte de los temas vistos en
-            la materia Programaci&oacute;n Est&aacute;tica y<br />
-            Laboratorio Web de la Tecnicatura Universitaria en Desarrollo Web de la
+        <body
+            background="imagenes/tablas3.jpg"
+            text="white"
+            link="Green"
+            vlink="Red"
+        >
+            <h1>CONTENIDO</h1>
+            <ol>
+                <li>
+                    <a href="#encabezados">Encabezados</a>
+                </li>
+                <li>
+                    <a href="#parrafos">P&aacute;rrafos</a>
+                </li>
+                <li>
+                    <a href="#lineasHorizontales">L&iacute;neas horizontales</a>
+                </li>
+                <li>
+                    <a href="#imagenes">Im&aacute;genes</a>
+                </li>
+                <li>
+                    <a href="#etiquetasFisicas">Etiquetas de estilo f&iacute;sico</a>
+                </li>
+                <li>
+                    <a href="#etiquetasLogicas">Etiquetas de estilo l&oacute;gico</a>
+                </li>
+                <li>
+                    <a href="#caracteresEspeciales">Acentos y caracteres especiales</a>
+                </li>
+                <li>
+                    <a href="#listas">Listas</a>
+                </li>
+                <li>
+                    <a href="#comentarios">Comentarios</a>
+                </li>
+                <li>
+                    <a href="#enlacesHipertexto">Enlaces hipertexto</a>
+                </li>
+                <li>
+                    <a href="#colores">Color en la web</a>
+                </li>
+            </ol>
+            <p>
+                Todos los items listados anteriormente son parte de los temas vistos en
+            la materia Programaci&oacute;n Est&aacute;tica y
+                <br>
+                Laboratorio Web de la Tecnicatura Universitaria en Desarrollo Web de la
             Universidad Nacional del Comahue.
-        </p>
-        <hr size="2" color="black" />
-        <h3><a name="encabezados">Encabezados</a></h3>
-        <ul>
-            <li>
-                <h1>&lt;h1&gt...&lt;/h1&gt;</h1>
-            </li>
-            <li>
-                <h2>&lt;h2&gt;...&lt;/h2&gt;</h2>
-            </li>
-            <li>
-                <h3>&lt;h3&gt;...&lt;/h3&gt;</h3>
-            </li>
-            <li>
-                <h4>&lt;h4&gt;...&lt;/h4&gt;</h4>
-            </li>
-            <li>
-                <h5>&lt;h5&gt;...&lt;/h5&gt;</h5>
-            </li>
-            <li>
-                <h6>&lt;h6&gt;...&lt;/h6&gt;</h6>
-            </li>
-        </ul>
-        <hr />
-        <h3><a name="parrafos">P&aacute;rrafos</a></h3>
-        &lt;p&gt;...&lt;/p&gt;<br />
-        El atributo "align" puede tener 4 valores: "center", "left", "right",
-        "justify".<br /><br />
-        &lt;pre&gt;...&lt;/pre&gt; altera el comportamiento del navegador para que
+            </p>
+            <hr size="2" color="black">
+            <h3>
+                <a name="encabezados">Encabezados</a>
+            </h3>
+            <ul>
+                <li>
+                    <h1>&lt;h1&gt...&lt;/h1&gt;</h1>
+                </li>
+                <li>
+                    <h2>&lt;h2&gt;...&lt;/h2&gt;</h2>
+                </li>
+                <li>
+                    <h3>&lt;h3&gt;...&lt;/h3&gt;</h3>
+                </li>
+                <li>
+                    <h4>&lt;h4&gt;...&lt;/h4&gt;</h4>
+                </li>
+                <li>
+                    <h5>&lt;h5&gt;...&lt;/h5&gt;</h5>
+                </li>
+                <li>
+                    <h6>&lt;h6&gt;...&lt;/h6&gt;</h6>
+                </li>
+            </ul>
+            <hr>
+            <h3>
+                <a name="parrafos">P&aacute;rrafos</a>
+            </h3>
+            &lt;p&gt;...&lt;/p&gt;
+            <br>
+            El atributo "align" puede tener 4 valores: "center", "left", "right",
+        "justify".
+            <br>
+            <br>
+            &lt;pre&gt;...&lt;/pre&gt; altera el comportamiento del navegador para que
         mantenga los espacios o saltos de linea de un parrafo tal cual estan en el
         codigo HTML.
-        <br /><br />
-        <hr />
-        <h3><a name="lineasHorizontales">Lineas horizontales</a></h3>
-        &lt;hr&gt; crea una linea horizontal<br />
-        <u>Atributos:</u>
-        <ul>
-            <li>align</li>
-            <li>noshade</li>
-            <li>size</li>
-            <li>width</li>
-        </ul>
-        <hr />
-        <h3><a name="imagenes">Im&aacute;genes</a></h3>
-        &lt;img src = "imagen.jpg"&gt;<br />
-        "src" indica la ubicacion donde esta guardada la imagen.<br />
-        Por ejemplo: &lt;img src ="imagenes/html5.png"&gt; insertar&aacute; la
-        siguiente im&aacute;gen:<br /><br />
-        <img src="imagenes/html5.png" />
-        <hr />
-        <h3><a name="etiquetasFisicas">Etiquetas de estilo f&iacute;sico</a></h3>
-        <ul>
-            <li>Texto en negrita: &lt;b&gt;...&lt;/b&gt;</li>
-            <li>Texto en cursiva: &lt;i&gt;...&lt;/i&gt;</li>
-            <li>Texto monoespaciado: &lt;tt&gt;...&lt;/tt&gt;</li>
-            <li>Texto tachado: &lt;strike&gt;...&lt;/strike&gt;</li>
-            <li>Aumentar tamaño del texto: &lt;big&gt;...&lt;/big&gt;</li>
-            <li>Reducir tamaño del texto: &lt;small&gt;...&lt;/small&gt;</li>
-            <li>Poner subindices: &lt;sub&gt;...&lt;/sub&gt;</li>
-            <li>Poner superindices: &lt;sup&gt;...&lt;/sup&gt;</li>
-            <li>Texto subrayado: &lt;u&gt;...&lt;/u&gt;</li>
-        </ul>
-        <hr />
-        <h3><a name="etiquetasLogicas">Etiquetas de estilo l&oacute;gico</a></h3>
-        <ul>
-            <li>
-                Indica que el texto marcado es de mayor importancia:
+            <br>
+            <br>
+            <hr>
+            <h3>
+                <a name="lineasHorizontales">Lineas horizontales</a>
+            </h3>
+            &lt;hr&gt; crea una linea horizontal
+            <br>
+            <u>Atributos:</u>
+            <ul>
+                <li>align</li>
+                <li>noshade</li>
+                <li>size</li>
+                <li>width</li>
+            </ul>
+            <hr>
+            <h3>
+                <a name="imagenes">Im&aacute;genes</a>
+            </h3>
+            &lt;img src = "imagen.jpg"&gt;
+            <br>
+            "src" indica la ubicaci&oacute;n donde esta guardada la imagen.
+            <p>Por ejemplo: &lt;img src ="imagenes/html5.png"&gt; insertar&aacute; la siguiente im&aacute;gen:</p>
+            <img src="imagenes/html5.png">
+            <p>
+                Las imagenes tambien se pueden insertar dentro de otras etiquetas y tienen el atributo "align" y puede tomar
+            5 valores diferentes.
+            </p>
+            <p>&lt;h3&gt;&lt;img src="imagenes/html5.png" />Texto e imagen dentro del encabezado&lt;/h3&gt; se ve como:</p>
+            <h4>
+                <img src="imagenes/html5.png">
+                Texto e imagen dentro del encabezado
+            </h3>
+            <h4>
+                <img src="imagenes/html5.png" align="top">
+                align="top"
+            </h3>
+            <h4>
+                <img src="imagenes/html5.png" align="middle">
+                align="middle"
+            </h3>
+            <h4>
+                <img src="imagenes/html5.png" align="bottom">
+                align="bottom"
+            </h3>
+            <h4>
+                <img src="imagenes/html5.png" align="left">
+                align="left"
+            </h3>
+            <h4 align="right">
+                <img src="imagenes/html5.png" align="right">
+                align="right"
+            </h3>
+            <br clear="right">
+            <br clear="right">
+            <p>Con la aparicion de los valores "right" y "left", tambi&eacute;n se introdujo un nuevo atributo a la etiqueta &lt;br/&gt;: "clear"</p>
+            <ul>
+                <li>&lt;br clear="left"/&gt; Provoca un salto de linea hasta el primer margen libre a la izquierda</li>
+                <li>&lt;br clear="right"/&gt; Provoca un salto de linea hasta el primer margen libre a la derecha</li>
+                <li>&lt;br clear="all"/&gt; Provoca un salto hasta la primera linea que tiene ambos margenes libres</li>
+            </ul>
+            <p>Tambi&eacute;n hay dos nuevos atributos para la etiqueta &lt;img&gt;: "vspace" y "hspace" que controlan el tamaño de los margenes vertical y horizontal respectivamente.</p>
+            <p>El tama&ntilde;o de los márgenes se indica en p&iacute;xeles.</p>
+            <p>Por ejemplo: &lt;img align="left" vspace="35" hspace="35"&gt;</p>
+            <p>Es posible modificar el tama&ntilde;o de las im&aacute;genes usando los atributos "width" y "height" para ancho y alto respectivamente.</p>
+            <p>Tambi&eacute;n existe el atributo "alt" que permite especificar un texto alternativo en caso de que la imagen no pueda ser vista.</p>
+            <p>Las im&aacute;genes externas no se visualizan con el resto de la p&aacute;gina, sino que se proporciona un enlace para que se pueda acceder a ellas.</p>
+            <p>Por ejemplo: &lt;a href="imagen.xxx"&gt;imagen externa&lt;/a&gt;</p>
+            <a href="https://disenowebakus.net/imagenes/articulos/html5.jpg" target="_blank">Imagen externa</a>
+            <hr>
+            <h3>
+                <a name="etiquetasFisicas">Etiquetas de estilo f&iacute;sico</a>
+            </h3>
+            <ul>
+                <li>Texto en negrita: &lt;b&gt;...&lt;/b&gt;</li>
+                <li>Texto en cursiva: &lt;i&gt;...&lt;/i&gt;</li>
+                <li>Texto monoespaciado: &lt;tt&gt;...&lt;/tt&gt;</li>
+                <li>Texto tachado: &lt;strike&gt;...&lt;/strike&gt;</li>
+                <li>Aumentar tamaño del texto: &lt;big&gt;...&lt;/big&gt;</li>
+                <li>Reducir tamaño del texto: &lt;small&gt;...&lt;/small&gt;</li>
+                <li>Poner subindices: &lt;sub&gt;...&lt;/sub&gt;</li>
+                <li>Poner superindices: &lt;sup&gt;...&lt;/sup&gt;</li>
+                <li>Texto subrayado: &lt;u&gt;...&lt;/u&gt;</li>
+            </ul>
+            <hr>
+            <h3>
+                <a name="etiquetasLogicas">Etiquetas de estilo l&oacute;gico</a>
+            </h3>
+            <ul>
+                <li>
+                    Indica que el texto marcado es de mayor importancia:
                 &lt;strong&gt;...&lt;/strong&gt;
-            </li>
-            <li>Muestra el texto en cursiva: &lt;em&gt;...&lt;/em&gt;</li>
-            <li>
-                Texto que forma parte de un codigo: &lt;code&gt;...&lt;/code&gt;
-            </li>
-            <li>
-                Produce el mismo efecto que &lt;code&gt;...&lt;/code&gt;:
+                </li>
+                <li>Muestra el texto en cursiva: &lt;em&gt;...&lt;/em&gt;</li>
+                <li>
+                    Texto que forma parte de un codigo: &lt;code&gt;...&lt;/code&gt;
+                </li>
+                <li>
+                    Produce el mismo efecto que &lt;code&gt;...&lt;/code&gt;:
                 &lt;samp&gt;...&lt;/samp&gt;
-            </li>
-            <li>
-                Delimita texto escrito por el usuario: &lt;var&gt;...&lt;/var&gt;
-            </li>
-            <li>Se usa para citas o referencias: &lt;cite&gt;...&lt;/cite&gt;</li>
-            <li>
-                Se usa para introducir una definicion: &lt;dfn&gt;...&lt;/dfn&gt;
-            </li>
-        </ul>
-        <hr />
-        <a name="caracteresEspeciales"></a>
-        <table width="600" border="5">
-            <caption>
-                <strong>Acentos y Caracteres Especiales</strong>
-            </caption>
-            <tr>
-                <th>Caracter</th>
-                <th>Alias</th>
-                <th>Ascii</th>
-                <th>Caracter</th>
-                <th>Alias</th>
-                <th>Ascii</th>
-            </tr>
-            <tr>
-                <td align="center">&aacute;</td>
-                <td>&amp;aacute;</td>
-                <td>&amp;#225;</td>
-                <td align="center">&Aacute;</td>
-                <td>&amp;Aacute;</td>
-                <td>&amp;#193;</td>
-            </tr>
-            <tr>
-                <td align="center">&eacute;</td>
-                <td>&amp;eacute;</td>
-                <td>&amp;#233;</td>
-                <td align="center">&Eacute;</td>
-                <td>&amp;Eacute;</td>
-                <td>&amp;#201;</td>
-            </tr>
-            <tr>
-                <td align="center">&iacute;</td>
-                <td>&amp;iacute;</td>
-                <td>&amp;#237;</td>
-                <td align="center">&Iacute;</td>
-                <td>&amp;Iacute;</td>
-                <td>&amp;#205;</td>
-            </tr>
-            <tr>
-                <td align="center">&oacute;</td>
-                <td>&amp;oacute;</td>
-                <td>&amp;#243;</td>
-                <td align="center">&Oacute;</td>
-                <td>&amp;Oacute;</td>
-                <td>&amp;#211;</td>
-            </tr>
-            <tr>
-                <td align="center">&uacute;</td>
-                <td>&amp;uacute;</td>
-                <td>&amp;#250;</td>
-                <td align="center">&Uacute;</td>
-                <td>&amp;Uacute;</td>
-                <td>&amp;#218;</td>
-            </tr>
-            <tr>
-                <td align="center">&uuml;</td>
-                <td>&amp;uuml;</td>
-                <td>&amp;#252;</td>
-                <td align="center">&Uuml;</td>
-                <td>&amp;Uuml;</td>
-                <td>&amp;#220;</td>
-            </tr>
-            <tr>
-                <td align="center">&ntilde;</td>
-                <td>&amp;ntilde;</td>
-                <td>&amp;#164;</td>
-                <td align="center">&Ntilde;</td>
-                <td>&amp;Ntilde;</td>
-                <td>&amp;#165;</td>
-            </tr>
-            <tr>
-                <td align="center">&#161;</td>
-                <td>-----------</td>
-                <td>&amp;#161;</td>
-                <td align="center">&#191;</td>
-                <td>-----------</td>
-                <td>&amp;#191;</td>
-            </tr>
-            <tr>
-                <td align="center">&lt;</td>
-                <td>&amp;lt;</td>
-                <td>&amp;#139;</td>
-                <td align="center">&gt;</td>
-                <td>&amp;gt;</td>
-                <td>&amp;#155;</td>
-            </tr>
-            <tr>
-                <td align="center">&amp;</td>
-                <td>&amp;amp;</td>
-                <td>&amp;#38;</td>
-                <td align="center">&copy;</td>
-                <td>&amp;copy;</td>
-                <td>&amp;#169;</td>
-            </tr>
-            <tr>
-                <td align="center">&reg;</td>
-                <td>&amp;reg;</td>
-                <td>&amp;#174;</td>
-                <td align="center">[espacio]</td>
-                <td>&amp;nbsp;</td>
-                <td>---------</td>
-            </tr>
-        </table>
-        <br />
-        <hr />
-        <h3><a name="listas">Listas</a></h3>
-        <ul>
-            <li>Listas no ordenadas</li>
-            <ul>
-                <li>Delimitadas por: &lt;ul&gt;...&lt;/ul&gt;</li>
-                <li>Cada elemento por: &lt;li&gt;...&lt;/li&gt;</li>
+                </li>
+                <li>
+                    Delimita texto escrito por el usuario: &lt;var&gt;...&lt;/var&gt;
+                </li>
+                <li>Se usa para citas o referencias: &lt;cite&gt;...&lt;/cite&gt;</li>
+                <li>
+                    Se usa para introducir una definicion: &lt;dfn&gt;...&lt;/dfn&gt;
+                </li>
             </ul>
-            <li>Listas ordenada o numeradas</li>
+            <hr>
+            <a name="caracteresEspeciales"></a>
+            <table width="600" border="5">
+                <caption>
+                    <strong>Acentos y Caracteres Especiales</strong>
+                </caption>
+                <tr>
+                    <th>Caracter</th>
+                    <th>Alias</th>
+                    <th>Ascii</th>
+                    <th>Caracter</th>
+                    <th>Alias</th>
+                    <th>Ascii</th>
+                </tr>
+                <tr>
+                    <td align="center">&aacute;</td>
+                    <td>&amp;aacute;</td>
+                    <td>&amp;#225;</td>
+                    <td align="center">&Aacute;</td>
+                    <td>&amp;Aacute;</td>
+                    <td>&amp;#193;</td>
+                </tr>
+                <tr>
+                    <td align="center">&eacute;</td>
+                    <td>&amp;eacute;</td>
+                    <td>&amp;#233;</td>
+                    <td align="center">&Eacute;</td>
+                    <td>&amp;Eacute;</td>
+                    <td>&amp;#201;</td>
+                </tr>
+                <tr>
+                    <td align="center">&iacute;</td>
+                    <td>&amp;iacute;</td>
+                    <td>&amp;#237;</td>
+                    <td align="center">&Iacute;</td>
+                    <td>&amp;Iacute;</td>
+                    <td>&amp;#205;</td>
+                </tr>
+                <tr>
+                    <td align="center">&oacute;</td>
+                    <td>&amp;oacute;</td>
+                    <td>&amp;#243;</td>
+                    <td align="center">&Oacute;</td>
+                    <td>&amp;Oacute;</td>
+                    <td>&amp;#211;</td>
+                </tr>
+                <tr>
+                    <td align="center">&uacute;</td>
+                    <td>&amp;uacute;</td>
+                    <td>&amp;#250;</td>
+                    <td align="center">&Uacute;</td>
+                    <td>&amp;Uacute;</td>
+                    <td>&amp;#218;</td>
+                </tr>
+                <tr>
+                    <td align="center">&uuml;</td>
+                    <td>&amp;uuml;</td>
+                    <td>&amp;#252;</td>
+                    <td align="center">&Uuml;</td>
+                    <td>&amp;Uuml;</td>
+                    <td>&amp;#220;</td>
+                </tr>
+                <tr>
+                    <td align="center">&ntilde;</td>
+                    <td>&amp;ntilde;</td>
+                    <td>&amp;#164;</td>
+                    <td align="center">&Ntilde;</td>
+                    <td>&amp;Ntilde;</td>
+                    <td>&amp;#165;</td>
+                </tr>
+                <tr>
+                    <td align="center">&#161;</td>
+                    <td>-----------</td>
+                    <td>&amp;#161;</td>
+                    <td align="center">&#191;</td>
+                    <td>-----------</td>
+                    <td>&amp;#191;</td>
+                </tr>
+                <tr>
+                    <td align="center">&lt;</td>
+                    <td>&amp;lt;</td>
+                    <td>&amp;#139;</td>
+                    <td align="center">&gt;</td>
+                    <td>&amp;gt;</td>
+                    <td>&amp;#155;</td>
+                </tr>
+                <tr>
+                    <td align="center">&amp;</td>
+                    <td>&amp;amp;</td>
+                    <td>&amp;#38;</td>
+                    <td align="center">&copy;</td>
+                    <td>&amp;copy;</td>
+                    <td>&amp;#169;</td>
+                </tr>
+                <tr>
+                    <td align="center">&reg;</td>
+                    <td>&amp;reg;</td>
+                    <td>&amp;#174;</td>
+                    <td align="center">[espacio]</td>
+                    <td>&amp;nbsp;</td>
+                    <td>---------</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <h3>
+                <a name="listas">Listas</a>
+            </h3>
             <ul>
-                <li>Delimitadas por: &lt;OL&gt;...&lt;/OL&gt;</li>
-                <li>Cada elemento por: &lt;li&gt;...&lt;/li&gt;</li>
+                <li>Listas no ordenadas</li>
+                <ul>
+                    <li>Delimitadas por: &lt;ul&gt;...&lt;/ul&gt;</li>
+                    <li>Cada elemento por: &lt;li&gt;...&lt;/li&gt;</li>
+                </ul>
+                <li>Listas ordenada o numeradas</li>
+                <ul>
+                    <li>Delimitadas por: &lt;OL&gt;...&lt;/OL&gt;</li>
+                    <li>Cada elemento por: &lt;li&gt;...&lt;/li&gt;</li>
+                </ul>
+                <li>Listas de glosario</li>
+                <ul>
+                    <li>Delimitadas por: &lt;DL&gt;...&lt;/DL&gt;</li>
+                    <li>Para la palabra se usa: &lt;DT&gt;</li>
+                    <li>Para la descripcion de la palabra se usa: &lt;DD&gt;</li>
+                </ul>
             </ul>
-            <li>Listas de glosario</li>
-            <ul>
-                <li>Delimitadas por: &lt;DL&gt;...&lt;/DL&gt;</li>
-                <li>Para la palabra se usa: &lt;DT&gt;</li>
-                <li>Para la descripcion de la palabra se usa: &lt;DD&gt;</li>
-            </ul>
-        </ul>
-        Como en el listado anterior, las listas pueden ser anidadas.<br /><br />
-        <hr />
-        <h3><a name="comentarios">Comentarios</a></h3>
-        <p>
-            Son notas dejadas por el autor para facilitar el entendimiento del
-            codigo.<br />
-            No son mostrados por el navegador por lo que solo son visibles al leer
+            Como en el listado anterior, las listas pueden ser anidadas.
+            <br>
+            <br>
+            <hr>
+            <h3>
+                <a name="comentarios">Comentarios</a>
+            </h3>
+            <p>
+                Son notas dejadas por el autor para facilitar el entendimiento del
+            codigo.
+                <br>
+                No son mostrados por el navegador por lo que solo son visibles al leer
             el codigo
-        </p>
-        La estructura para el comentario es:
-        <strong>&lt;!--Esto es un comentario--&gt;</strong>
-        <hr />
-        <h3><a name="enlacesHipertexto">Enlaces hipertexto</a></h3>
-        <p>
-            Son zonas especiales de nuestro texto que ofrecen la posibilidad de
+            </p>
+            La estructura para el comentario es:
+            <strong>&lt;!--Esto es un comentario--&gt;</strong>
+            <hr>
+            <h3>
+                <a name="enlacesHipertexto">Enlaces hipertexto</a>
+            </h3>
+            <p>
+                Son zonas especiales de nuestro texto que ofrecen la posibilidad de
             pulsar sobre ellas para ir a otras paginas.
-        </p>
-        <ul>
-            <li>
-                Enlaces internos o locales: enlazan las paginas que componen un mismo
+            </p>
+            <ul>
+                <li>
+                    Enlaces internos o locales: enlazan las paginas que componen un mismo
                 sitio web.
-            </li>
-            <li>Enlaces externos: permiten ir a paginas en otro servidor web.</li>
-        </ul>
-        <p>
-            Para crear enlaces se usa la etiqueta &lt;a&gt;...&lt;/a&gt;<br />
-            El atributo "href" permite indicar cual es la pagina a la que debe
-            saltar cuando el usuario lo presiona.<br />
-            La estructura de un link es: &lt;a href="direccionURL"&gt;Texto que
+                </li>
+                <li>Enlaces externos: permiten ir a paginas en otro servidor web.</li>
+            </ul>
+            <p>
+                Para crear enlaces se usa la etiqueta &lt;a&gt;...&lt;/a&gt;
+                <br>
+                El atributo "href" permite indicar cual es la pagina a la que debe
+            saltar cuando el usuario lo presiona.
+                <br>
+                La estructura de un link es: &lt;a href="direccionURL"&gt;Texto que
             ser&aacute; sensible (hipertexto)&lt;/a&gt;
-        </p>
-        <ul>
-            <li>
-                Enlace interno: &lt;a href="varios/hobbies.html"&gt;Hobbies&lt;/a&gt;
-            </li>
-            <li>
-                Enlace externo: &lt;a
+            </p>
+            <ul>
+                <li>
+                    Enlace interno: &lt;a href="varios/hobbies.html"&gt;Hobbies&lt;/a&gt;
+                </li>
+                <li>
+                    Enlace externo: &lt;a
                 href="https://www.youtube.com"&gt;Youtube&lt;/a&gt;
-            </li>
-        </ul>
-        <u>Creaci&oacute;n de anclas:</u><br>
-        &lt;a name="nombreAncla"&gt;Comienzo&lt;/a&gt;<br>
-        &lt;a href="#nombreAncla"&gt;A Comienzo&lt;/a&gt;<br>
-        <hr>
-        <h3><a name="colores">Color en la web</a></h3>
-        <h4>Color de fondo</h4>
-        <p>Para cambiar el color de fondo se usa el atributo "bgcolor" de la etiqueta &lt;body&gt;.</p>
-        <table width="500" border="5">
-            <tr>
-                <th>Negro</th>
-                <td>Black</td>
-                <td>#000000</td>
-            </tr>
-            <tr>
-                <th>Blanco</th>
-                <td>White</td>
-                <td>#FFFFFF</td>
-            </tr>
-            <tr>
-                <th>Verde</th>
-                <td>Green</td>
-                <td>#008000</td>
-            </tr>
-            <tr>
-                <th>Marron rojizo</th>
-                <td>Maroon</td>
-                <td>#800000</td>
-            </tr>
-            <tr>
-                <th>Verde oliva</th>
-                <td>Olive</td>
-                <td>#808000</td>
-            </tr>
-            <tr>
-                <th>Azul marino</th>
-                <td>Navy</td>
-                <td>#000080</td>
-            </tr>
-            <tr>
-                <th>Violeta</th>
-                <td>Purple</td>
-                <td>#8000080</td>
-            </tr>
-            <tr>
-                <th>Gris oscuro</th>
-                <td>Gray</td>
-                <td>#808080</td>
-            </tr>
-            <tr>
-                <th>Rojo</th>
-                <td>Red</td>
-                <td>#FF0000</td>
-            </tr>
-            <tr>
-                <th>Amarillo</th>
-                <td>Yellow</td>
-                <td>#FFFF00</td>
-            </tr>
-            <tr>
-                <th>Azul</th>
-                <td>Blue</td>
-                <td>#0000FF</td>
-            </tr>
-            <tr>
-                <th>Azul verdoso</th>
-                <td>Teal</td>
-                <td>#008080</td>
-            </tr>
-            <tr>
-                <th>Verde lima</th>
-                <td>Lime</td>
-                <td>#00FF00</td>
-            </tr>
-            <tr>
-                <th>Azul claro</th>
-                <td>Aqua</td>
-                <td>#00FFFF</td>
-            </tr>
-            <tr>
-                <th>Fucsia</th>
-                <td>Fuchsia</td>
-                <td>#FF00FF</td>
-            </tr>
-            <tr>
-                <th>Gris claro</th>
-                <td>Silver</td>
-                <td>#C0C0C0</td>
-            </tr>
-        </table>
-        <br>
-        <h4>Color del texto y links</h4>
-        <strong>Atributos de la etiqueta &lt;body&gt;:</strong>
-        <ul>
-            <li><u>text:</u> controla el color que tendr&aacute; el texto</li>
-            <li><u>link:</u> controla el color que tendr&aacute;n los links</li>
-            <li><u>vlink:</u> controla el color de los links visitados</li>
-            <li><u>alink:</u> controla el color del enlaca activo</li>
-        </ul>
-        <br>
-        <h4>Im&aacute;genes de fondo</h4>
-        <p>Para insertar una im&aacute;gen de fondo se utiliza el atributo "background" de la etiqueta &lt;body&gt;.<br>
-        Por ejemplo: &lt;body background="fondo1.jpg"&gt;<br>
-    Donde "fondo1.jpg" es la imagen elegida como fondo y se encuentra en el mismo directorio que la p&aacute;gina.</p>
-    </body>
-</big>
+                </li>
+            </ul>
+            <u>Creaci&oacute;n de anclas:</u>
+            <br>
+            <p>
+                &lt;a name="nombreAncla"&gt;Comienzo&lt;/a&gt;
+                <br>
+                &lt;a href="#nombreAncla"&gt;A Comienzo&lt;/a&gt;
+            </p>
+            <p>El atributo "target" indica d&oacute;nde tiene que abrirse el enlace.</p>
+            <ul>
+                <li>_blank: abrir el enlace en una nueva ventana</li>
+                <li>_self: abrir el enlace en la misma ventana donde est&aacute; el c&oacute;digo actual</li>
+                <li>_parent: abre el enlace en el frame padre</li>
+                <li>_top: abre la ventana en toda la ventana</li>
+            </ul>
+            <p>
+                También se pueden usar im&aacute;genes como enlace:
+                <br>
+                En primer lugar se debe insertar la instrucci&oacute;n de inicio de &lt;a&gt;, despu&eacute;s incluir la etiqueta &lt;img&gt; y por &uacute;ltimo insertar &lt;/a&gt;
+            </p>
+            <p>Por ejemplo: &lt;a href="#imagenes"&gt;&lt;img src="imagenes/html5.png&gt;&lt;/a&gt; mostrará lo siguiente:</p>
+            <a href="#imagenes">
+                <img src="imagenes/html5.png">
+            </a>
+            <p>Al clickear en la im&aacute;gen nos llevar&aacute; a la parte dedicada a las mismas.</p>
+            <p>El atributo "border" de la etiqueta &lt;img&gt; controla el grosor del borde.</p>
+            <a href="#imagenes">
+                <img src="imagenes/html5.png" border="10">
+            </a>
+            <p>Im&aacute;gen con border="10"</p>
+            <hr>
+            <h3>
+                <a name="colores">Color en la web</a>
+            </h3>
+            <h4>Color de fondo</h4>
+            <p>Para cambiar el color de fondo se usa el atributo "bgcolor" de la etiqueta &lt;body&gt;.</p>
+            <table width="500" border="5">
+                <tr>
+                    <th>Negro</th>
+                    <td>Black</td>
+                    <td>#000000</td>
+                </tr>
+                <tr>
+                    <th>Blanco</th>
+                    <td>White</td>
+                    <td>#FFFFFF</td>
+                </tr>
+                <tr>
+                    <th>Verde</th>
+                    <td>Green</td>
+                    <td>#008000</td>
+                </tr>
+                <tr>
+                    <th>Marron rojizo</th>
+                    <td>Maroon</td>
+                    <td>#800000</td>
+                </tr>
+                <tr>
+                    <th>Verde oliva</th>
+                    <td>Olive</td>
+                    <td>#808000</td>
+                </tr>
+                <tr>
+                    <th>Azul marino</th>
+                    <td>Navy</td>
+                    <td>#000080</td>
+                </tr>
+                <tr>
+                    <th>Violeta</th>
+                    <td>Purple</td>
+                    <td>#8000080</td>
+                </tr>
+                <tr>
+                    <th>Gris oscuro</th>
+                    <td>Gray</td>
+                    <td>#808080</td>
+                </tr>
+                <tr>
+                    <th>Rojo</th>
+                    <td>Red</td>
+                    <td>#FF0000</td>
+                </tr>
+                <tr>
+                    <th>Amarillo</th>
+                    <td>Yellow</td>
+                    <td>#FFFF00</td>
+                </tr>
+                <tr>
+                    <th>Azul</th>
+                    <td>Blue</td>
+                    <td>#0000FF</td>
+                </tr>
+                <tr>
+                    <th>Azul verdoso</th>
+                    <td>Teal</td>
+                    <td>#008080</td>
+                </tr>
+                <tr>
+                    <th>Verde lima</th>
+                    <td>Lime</td>
+                    <td>#00FF00</td>
+                </tr>
+                <tr>
+                    <th>Azul claro</th>
+                    <td>Aqua</td>
+                    <td>#00FFFF</td>
+                </tr>
+                <tr>
+                    <th>Fucsia</th>
+                    <td>Fuchsia</td>
+                    <td>#FF00FF</td>
+                </tr>
+                <tr>
+                    <th>Gris claro</th>
+                    <td>Silver</td>
+                    <td>#C0C0C0</td>
+                </tr>
+            </table>
+            <br>
+            <h4>Color del texto y links</h4>
+            <strong>Atributos de la etiqueta &lt;body&gt;:</strong>
+            <ul>
+                <li>
+                    <u>text:</u>
+                    controla el color que tendr&aacute; el texto
+                </li>
+                <li>
+                    <u>link:</u>
+                    controla el color que tendr&aacute;n los links
+                </li>
+                <li>
+                    <u>vlink:</u>
+                    controla el color de los links visitados
+                </li>
+                <li>
+                    <u>alink:</u>
+                    controla el color del enlaca activo
+                </li>
+            </ul>
+            <br>
+            <h4>Im&aacute;genes de fondo</h4>
+            <p>
+                Para insertar una im&aacute;gen de fondo se utiliza el atributo "background" de la etiqueta &lt;body&gt;.
+                <br>
+                Por ejemplo: &lt;body background="fondo1.jpg"&gt;
+                <br>
+                Donde "fondo1.jpg" es la imagen elegida como fondo y se encuentra en el mismo directorio que la
+            p&aacute;gina.
+            </p>
+        </body>
+    </big>
 
 </html>
