@@ -1,0 +1,316 @@
+/*INDICE*/
+
+.content-index {
+    background-color: beige;
+    float: left;
+    position: fixed;
+    top: 18%;
+    width: 22%;
+    padding: 2%;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 30px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+    padding: 0%;
+}
+
+.content-index h3 {
+    text-decoration: underline;
+}
+
+.index-list li {
+    list-style-type: none;
+}
+
+.content-list2 li:first-of-type {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.content-reference2 {
+    line-height: 30px;
+    margin-left: 500px;
+}
+
+.content-container p a:hover,
+.content-index a:hover {
+    color: rgb(70, 146, 70);
+}
+
+.content-reference2 a:hover,
+.content-reference a:hover {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+}
+
+.content-index-element {
+    color: black;
+}
+
+.content-container {
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+    padding-left: 25%;
+    padding-right: 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+.sub-content {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.content-container p {
+    font-size: 20px;
+}
+
+.align-left img {
+    float: left;
+}
+
+.content-container ul,
+.content-container li {
+    font-size: 20px;
+}
+
+.content-divider {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.sub-content-divider {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    align-self: center;
+}
+
+.large-img {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+
+.large-img-left {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+}
+
+.large-img-right {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    float: right;
+}
+
+#img-float-left {
+    float: left;
+}
+
+.img-float-left {
+    float: left;
+}
+
+.img-float-right {
+    float: right;
+}
+
+#img-float-center {
+    position: relative;
+    left: 25%;
+}
+
+
+/*Modificaciones propias de piel.html*/
+
+.wide-img-piel {
+    width: 450px;
+    height: 200px;
+}
+
+.wide-img-piel-left {
+    width: 450px;
+    height: 200px;
+    float: left;
+}
+
+.wide-img-piel-right {
+    width: 450px;
+    height: 200px;
+    float: right;
+}
+
+.small-img-piel {
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+}
+
+.small-img-piel-left {
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+}
+
+#copyright-piel {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    margin-top: 290%;
+    padding: 1%;
+    background: #FCAB10;
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid black;
+    box-shadow: -2px -2px black
+}
+
+#copyright-piel p {
+    float: left;
+}
+
+#copyright-piel img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+/*Modificaciones propias de osteologiaYArtrologia.html*/
+
+.small-img-ostYArt {
+    /*También es usada en miologia.html*/
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.high-img {
+    width: 200px;
+    height: 400px;
+}
+
+#img-ost1 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+#copyright-ostYArt {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    margin-top: 335%;
+    padding: 1%;
+    background: #FCAB10;
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid black;
+    box-shadow: -2px -2px black
+}
+
+#copyright-ostYArt p {
+    float: left;
+}
+
+#copyright-ostYArt img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+/*Modificaciones propias de miologia.html*/
+
+#copyright-mio {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    margin-top: 325%;
+    padding: 1%;
+    background: #FCAB10;
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid black;
+    box-shadow: -2px -2px black
+}
+
+#copyright-mio p {
+    float: left;
+}
+
+#copyright-mio img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+/*Modificaciones propias de tecnicas.html*/
+
+#copyright-tecnicas {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    margin-top: 330%;
+    padding: 1%;
+    background: #FCAB10;
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid black;
+    box-shadow: -2px -2px black
+}
+
+#copyright-tecnicas p {
+    float: left;
+}
+
+#copyright-tecnicas img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.img-container-1 {
+    width: 100%;
+    padding-left: 8%;
+}
+
+.img-container-2 {
+    width: 100%;
+    padding-left: 25%;
+}
+
+
+/*to-top*/
+
+#to-top {
+    position: fixed;
+    bottom: 6%;
+    right: 0;
+    padding-right: 10px;
+}
+
+#to-top a {
+    text-decoration: none;
+    color: black;
+}
+
+#to-top a:hover {
+    color: #FCAB10;
+}

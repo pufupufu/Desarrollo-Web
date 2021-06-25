@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../assets/js/form-options.js"></script>
+    <script type="text/javascript" src="../assets/js/form-validation.js"></script>
+    <title>Anatom&iacute;a y Masajes | Únete</title>
+    <link href="../assets/css/estilos.css" type="text/css" rel="stylesheet">
+    <link href="../assets/css/estilos-contacto.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <div class="h1-container">
+                <a href="../index.html">
+                    <h1>Anatomía y Masajes</h1>
+                </a>
+            </div>
+            <div class="nav-bar">
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li class="first-menu-element">
+                            <a class="page-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="menu-element">
+                            <a class="page-link" href="piel.html">PIEL</a>
+                        </li>
+                        <li class="menu-element">
+                            <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
+                        </li>
+                        <li class="menu-element">
+                            <a class="page-link" href="miologia.html">MIOLOGÍA</a>
+                        </li>
+                        <li class="menu-element">
+                            <a class="page-link" href="tecnicas.html">TÉCNICAS</a>
+                        </li>
+                        <li class="menu-element">
+                            <a class="actual-page" href="#">ÚNETE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="form-container">
+            <form>
+                <h1 class="formulario__titulo">Pre-inscripción</h1>
+                <input type="text" id="Nombre" class="formulario__input" maxlength="15" placeholder="Nombre" name="name" required>
+                <label class="formulario__label">Nombre</label>
+                <input type="text" id="Apellido" class="formulario__input" maxlength="23" placeholder="Apellido" name="apellido" required>
+                <label class="formulario__label">Apellido</label>
+                <select id="Genero" class="formulario__input">
+			<option id="Elija1">Género</option>
+			<option>Femenino</option>
+			<option>Masculino</option>
+			<option>Otro</option>
+		</select>
+                <label class="formulario__label">Género</label>
+                <select class="formulario__select" id="Anio" ondblclick="anios()">
+                    <option id="anio1" >Año</option>
+                </select>
+                <select class="formulario__select" id="Mes" ondblclick="meses()">
+                    <option id="mes1">Mes</option>
+                </select>
+                <select class="formulario__select" id="Dia" ondblclick="dias()">
+                    <option id="dia1">Dia</option>
+                </select>
+                <label class="formulario__label">Fecha de Nacimiento</label>
+                <input type="email" id="Correo" class="formulario__input" maxlength="50" placeholder="ejemplo@gmail.com" name="mail" required>
+                <label class="formulario__label">Correo</label>
+                <input type="text" id="Telf" class="formulario__input" maxlength="15" placeholder="2994765698" name="celu" required>
+                <label class="formulario__label">Teléfono</label>
+                <input type="text" id="Razon" class="formulario__input" maxlength="200" placeholder="Su razon es..(*opcional)" name="laRazon">
+                <label class="formulario__label">Razón por la que desea ser parte:</label>
+                <select id="Curso" class="formulario__input">
+                    <option id="Elija3">Cursos</option>
+                    <option>Masaje Tailandés</option>
+                    <option>Masaje Francés/Sueco</option>
+                    <option>Masaje con piedras calientes</option>
+                    <option>Masaje ayurvédico</option>
+                    <option>Masaje bioenergizante</option>
+                    <option>Masaje deportivo</option>
+                </select>
+                <label class="formulario__label">Elija un curso</label>
+                <input type="button" value="Enviar" id="enviar" class="formulario__submit" onclick="validacion()">
+            </form>
+        </div>
+        <div id="copyright">
+            <p>&copy; Todos los derechos reservados.</p>
+            <a target="_blank" href="https://github.com/santiagoScantamburlo"><img src="../assets/images/todas/logo-git.png" alt="GitHub"></a>
+        </div>
+    </div>
+</body>
+
+</html>
