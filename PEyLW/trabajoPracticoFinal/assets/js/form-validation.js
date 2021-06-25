@@ -2,7 +2,6 @@ function validacion() {
     var valido = verificarCampos();
     if (valido) {
         vaciarCampos();
-        location.replace("../index.html");
         alert("Datos cargados correctamente");
     }
 }
@@ -40,6 +39,7 @@ function verificarCampos() {
         desmarcar(campo);
     }
 
+    //Verifico la validez del campo Anio
     campo = document.getElementById('Anio');
     valor = campo.value;
     if (isNaN(valor)) {
@@ -49,6 +49,7 @@ function verificarCampos() {
         desmarcar(campo);
     }
 
+    //Verifico la validez del campo Mes
     campo = document.getElementById('Mes');
     valor = campo.value;
     if (valor == "Mes") {
@@ -58,6 +59,7 @@ function verificarCampos() {
         desmarcar(campo);
     }
 
+    //Verifico la validez del campo Dia
     campo = document.getElementById('Dia');
     valor = campo.value;
     if (isNaN(valor)) {
@@ -67,6 +69,7 @@ function verificarCampos() {
         desmarcar(campo);
     }
 
+    //Verifico la validez del campo Correo con una expresión regular
     campo = document.getElementById('Correo');
     valor = campo.value;
     var emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
@@ -77,6 +80,7 @@ function verificarCampos() {
         valido = false;
     }
 
+    //Verifico la validez del campo Telefono
     campo = document.getElementById('Telf');
     valor = campo.value;
     if (valor == "" || isNaN(valor)) {
@@ -86,6 +90,7 @@ function verificarCampos() {
         desmarcar(campo);
     }
 
+    //Verifico la validez del campo Curso
     campo = document.getElementById('Curso');
     valor = campo.value;
     if (valor == "Cursos") {
@@ -98,14 +103,17 @@ function verificarCampos() {
     return valido;
 }
 
+//Le agrego un borde rojo al campo con datos incorrectos
 function marcarIncorrecto(campo) {
     campo.style.border = "2px solid red";
 }
 
+//Le quito el borde en caso de que el campo haya sido incorrecto antes
 function desmarcar(campo) {
     campo.style.borderColor = "";
 }
 
+//Vacio todos los campos una vez se verificó la validez del formulario
 function vaciarCampos() {
     document.getElementById('Nombre').value = "";
     document.getElementById('Apellido').value = "";

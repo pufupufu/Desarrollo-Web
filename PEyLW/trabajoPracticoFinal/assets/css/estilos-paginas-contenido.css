@@ -2,6 +2,7 @@
 
 .content-index {
     background-color: beige;
+    box-shadow: 6px 6px gray;
     float: left;
     position: fixed;
     top: 18%;

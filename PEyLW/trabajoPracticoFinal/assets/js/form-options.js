@@ -14,11 +14,11 @@ function meses() {
 }
 
 function dias() {
-    var anio = document.getElementById('Anio');
+    var anio = document.getElementById('Anio').value;
     var mes = document.getElementById('Mes').value;
     var cantDias = 0;
-    if (!isNaN(anio.value)) {
-        if (anio.value % 4 == 0) {
+    if (!isNaN(anio) && mes != "Mes") {
+        if (anio % 4 == 0) {
             if (mes == "Febrero") {
                 var cantDias = 29;
             } else {
