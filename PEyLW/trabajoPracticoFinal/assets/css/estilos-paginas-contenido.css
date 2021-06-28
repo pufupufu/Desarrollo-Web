@@ -1,14 +1,40 @@
 /*INDICE*/
 
-.content-index {
+#index-btn {
+    margin-top: 60px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-color: #FCAB10;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+#index-btn:hover {
+    background-color: #BF3100;
+}
+
+.index-off {
+    display: none;
+}
+
+.index-on {
+    display: block;
+}
+
+#content-index {
     background-color: beige;
     box-shadow: 6px 6px gray;
-    float: left;
-    position: fixed;
-    top: 18%;
+    position: absolute;
+    top: 210px;
+    z-index: 50;
     width: 22%;
     padding: 2%;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-right: 25px;
     margin-left: 25px;
     line-height: 30px;
@@ -17,12 +43,17 @@
     padding: 0%;
 }
 
-.content-index h3 {
+#content-index h3 {
     text-decoration: underline;
+    text-align: center;
 }
 
 .index-list li {
     list-style-type: none;
+}
+
+img {
+    box-shadow: 4px 4px gray;
 }
 
 .content-list2 li:first-of-type {
@@ -36,7 +67,7 @@
 }
 
 .content-container p a:hover,
-.content-index a:hover {
+#content-index a:hover {
     color: rgb(70, 146, 70);
 }
 
@@ -100,15 +131,15 @@
 }
 
 .large-img-left {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
     margin: 10px;
     float: left;
 }
 
 .large-img-right {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
     margin: 10px;
     float: right;
 }
@@ -167,7 +198,7 @@
     position: relative;
     margin: auto;
     padding: auto;
-    margin-top: 290%;
+    margin-top: 305%;
     padding: 1%;
     background: #FCAB10;
     color: black;
@@ -185,6 +216,7 @@
     width: 50px;
     height: 50px;
     float: right;
+    box-shadow: none;
 }
 
 
@@ -213,7 +245,7 @@
     position: relative;
     margin: auto;
     padding: auto;
-    margin-top: 335%;
+    margin-top: 375%;
     padding: 1%;
     background: #FCAB10;
     color: black;
@@ -231,6 +263,7 @@
     width: 50px;
     height: 50px;
     float: right;
+    box-shadow: none;
 }
 
 
@@ -240,7 +273,7 @@
     position: relative;
     margin: auto;
     padding: auto;
-    margin-top: 325%;
+    margin-top: 370%;
     padding: 1%;
     background: #FCAB10;
     color: black;
@@ -258,6 +291,7 @@
     width: 50px;
     height: 50px;
     float: right;
+    box-shadow: none;
 }
 
 
@@ -267,7 +301,7 @@
     position: relative;
     margin: auto;
     padding: auto;
-    margin-top: 330%;
+    margin-top: 380%;
     padding: 1%;
     background: #FCAB10;
     color: black;
@@ -285,6 +319,7 @@
     width: 50px;
     height: 50px;
     float: right;
+    box-shadow: none;
 }
 
 .img-container-1 {
@@ -314,4 +349,16 @@
 
 #to-top a:hover {
     color: #FCAB10;
+}
+
+.videos {
+    width: 100%;
+}
+
+.videos iframe {
+    width: 540px;
+    height: 315px;
+    float: left;
+    padding-right: 1.5%;
+    padding-top: 3%;
 }

@@ -13,68 +13,68 @@
 <body>
     <div id="contenedor">
         <header>
+            <img id="logo" src="../assets/images/todas/logoMasajes.png">
             <div class="h1-container">
                 <a href="../index.html">
                     <h1>Anatomía y Masajes</h1>
                 </a>
             </div>
-            <div class="nav-bar">
-                <div class="menu-container">
-                    <ul class="menu">
-                        <li class="first-menu-element">
-                            <a class="page-link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="piel.html">PIEL</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="miologia.html">MIOLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="tecnicas.html">TÉCNICAS</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="actual-page" href="#">ÚNETE</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </header>
-
+        <div class="nav-bar">
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="first-menu-element">
+                        <a class="page-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="piel.html">PIEL</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="miologia.html">MIOLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="tecnicas.html">TÉCNICAS</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="actual-page" href="#">ÚNETE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div id="form-container">
             <form>
                 <h1 class="formulario__titulo">Pre-inscripción</h1>
-                <input type="text" id="Nombre" class="formulario__input" maxlength="15" placeholder="Nombre" name="name" required>
+                <input type="text" id="Nombre" class="formulario__input" maxlength="15" placeholder="Nombre" name="name" required onchange="verificarNombre()" aria-invalid="true">
                 <label class="formulario__label">Nombre</label>
-                <input type="text" id="Apellido" class="formulario__input" maxlength="23" placeholder="Apellido" name="apellido" required>
+                <input type="text" id="Apellido" class="formulario__input" maxlength="23" placeholder="Apellido" name="apellido" required onchange="verificarApellido()" aria-invalid="true">
                 <label class="formulario__label">Apellido</label>
-                <select id="Genero" class="formulario__input2">
+                <select id="Genero" class="formulario__input2" onchange="verificarGenero()" aria-invalid="true">
 			<option id="Elija1">Género</option>
 			<option>Femenino</option>
 			<option>Masculino</option>
 			<option>Otro</option>
 		</select>
                 <label class="formulario__label">Género</label>
-                <select class="formulario__select" id="Anio" ondblclick="anios()">
+                <select class="formulario__select" id="Anio" ondblclick="anios()" onchange="verificarAnio()" aria-invalid="true">
                     <option id="anio1" >Año</option>
                 </select>
-                <select class="formulario__select" id="Mes" ondblclick="meses()">
+                <select class="formulario__select" id="Mes" ondblclick="meses()" onchange="verificarMes()" aria-invalid="true">
                     <option id="mes1">Mes</option>
                 </select>
-                <select class="formulario__select" id="Dia" ondblclick="dias()">
+                <select class="formulario__select" id="Dia" ondblclick="dias()" onchange="verificarDia()" aria-invalid="true">
                     <option id="dia1">Dia</option>
                 </select>
                 <label class="formulario__label">Fecha de Nacimiento</label>
-                <input type="email" id="Correo" class="formulario__input" maxlength="50" placeholder="ejemplo@gmail.com" name="mail" required>
+                <input type="email" id="Correo" class="formulario__input" maxlength="50" placeholder="ejemplo@gmail.com" name="mail" required onchange="verificarEmail()" aria-invalid="true">
                 <label class="formulario__label">Correo</label>
-                <input type="text" id="Telf" class="formulario__input" maxlength="15" placeholder="2994765698" name="celu" required>
+                <input type="text" id="Telf" class="formulario__input" maxlength="15" placeholder="2994765698" name="celu" required onchange="verificarTelefono()" aria-invalid="true">
                 <label class="formulario__label">Teléfono</label>
                 <input type="text" id="Razon" class="formulario__input" maxlength="200" placeholder="Su razon es..(*opcional)" name="laRazon">
                 <label class="formulario__label">Razón por la que desea ser parte:</label>
-                <select id="Curso" class="formulario__input2">
+                <select id="Curso" class="formulario__input2" onchange="verificarCurso()" aria-invalid="true">
                     <option id="Elija3">Cursos</option>
                     <option>Masaje Tailandés</option>
                     <option>Masaje Francés/Sueco</option>

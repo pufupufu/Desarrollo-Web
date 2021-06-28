@@ -5,6 +5,7 @@
     <title>Anatomía y Masajes | Piel</title>
     <link href="../assets/css/estilos.css" type="text/css" rel="stylesheet">
     <link href="../assets/css/estilos-paginas-contenido.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../assets/js/index-display.js"></script>
     <meta charset="UTF-8">
 </head>
 
@@ -12,37 +13,40 @@
     <div class="contenedor">
         <a name="top"></a>
         <header>
+            <img id="logo" src="../assets/images/todas/logoMasajes.png">
             <div class="h1-container">
                 <a href="../index.html">
                     <h1>Anatomía y Masajes</h1>
                 </a>
             </div>
-            <div class="nav-bar">
-                <div class="menu-container">
-                    <ul class="menu">
-                        <li class="first-menu-element">
-                            <a class="page-link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="actual-page" href="#">PIEL</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="miologia.html">MIOLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="tecnicas.html">TÉCNICAS</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="contacto.html">ÚNETE</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </header>
-        <div class="content-index">
+        <div class="nav-bar">
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="first-menu-element">
+                        <a class="page-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="actual-page" href="#">PIEL</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="miologia.html">MIOLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="tecnicas.html">TÉCNICAS</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="contacto.html">ÚNETE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button id="index-btn" onclick="buttonClick()" onmouseover="showMessage()" onmouseout="hideMessage()">MOSTRAR ÍNDICE</button>
+        <!-- <span id="message" class="message-off">Mostrar índice</span> -->
+        <div id="content-index" class="index-off">
             <h3>Índice de contenidos</h3>
             <ul class="index-list">
                 <li>
@@ -71,7 +75,12 @@
                 <li>
                     5. <a class="content-index-element" href="#papilasDermicas">Papilas dérmicas</a>
                 </li>
-                <li>6. <a class="content-index-element" href="#anexosPiel">Anexos de la piel</a></li>
+                <li>
+                    6. <a class="content-index-element" href="#anexosPiel">Anexos de la piel</a>
+                </li>
+                <li>
+                    7. <a class="content-index-element" href="#materialAdicional">Material adicional</a>
+                </li>
             </ul>
         </div>
         <div class="content-container">
@@ -218,6 +227,15 @@
             <hr class="sub-content-divider">
             <p><img class="small-img-piel-left" src="../assets/images/piel/piel7.jpg" alt="Pelos"><br>Los pelos son prolongaciones cilíndricas que emergen de cavidades tubulosas de la piel: los folículos pilosos. El pelo consta dedos partes: una raíz y un
                 tallo. La raíz o bulbo está dentro delfolículo piloso. El tallo es la region que sobresale de la piel. Los pelos pueden ponerse rígidos por la acción de los músculos erectores.</p>
+            <br class="clear">
+            <hr class="content-divider">
+            <div class="videos">
+                <a name="materialAdicional">
+                    <h1>MATERIAL ADICIONAL</h1>
+                </a>
+                <iframe src="https://www.youtube.com/embed/8jHS_VeAf_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/j1To7CTbCWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <div id="to-top">
             <a href="#top">

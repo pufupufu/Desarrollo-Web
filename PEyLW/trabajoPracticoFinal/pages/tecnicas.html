@@ -5,6 +5,7 @@
     <title>Anatom&iacute;a y Masajes | T&eacute;cnicas</title>
     <link href="../assets/css/estilos.css" type="text/css" rel="stylesheet">
     <link href="../assets/css/estilos-paginas-contenido.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../assets/js/index-display.js"></script>
     <meta charset="utf-8">
 </head>
 
@@ -12,37 +13,40 @@
     <div>
         <a name="top"></a>
         <header>
+            <img id="logo" src="../assets/images/todas/logoMasajes.png">
             <div class="h1-container">
                 <a href="../index.html">
                     <h1>Anatomía y Masajes</h1>
                 </a>
             </div>
-            <div class="nav-bar">
-                <div class="menu-container">
-                    <ul class="menu">
-                        <li class="first-menu-element">
-                            <a class="page-link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="piel.html">PIEL</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="miologia.html">MIOLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="actual-page" href="#">TÉCNICAS</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="contacto.html">ÚNETE</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </header>
-        <div class="content-index">
+        <div class="nav-bar">
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="first-menu-element">
+                        <a class="page-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="piel.html">PIEL</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="osteologiaYArtrologia.html">OSTEOLOGÍA Y ARTROLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="miologia.html">MIOLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="actual-page" href="#">TÉCNICAS</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="contacto.html">ÚNETE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button id="index-btn" onclick="buttonClick()" onmouseover="showMessage()" onmouseout="hideMessage()">MOSTRAR ÍNDICE</button>
+        <!-- <span id="message" class="message-off">Mostrar índice</span> -->
+        <div id="content-index" class="index-off">
             <h3>Índice de contenidos</h3>
             <ul class="index-list">
                 <li>
@@ -87,6 +91,9 @@
                         3.5. <a class="content-index-element" href="#percusion">Percusión</a>
                     </li>
                 </ul>
+                <li>
+                    4. <a class="content-index-element" href="#materialAdicional">Material adicional</a>
+                </li>
             </ul>
         </div>
         <div class="content-container">
@@ -295,6 +302,17 @@
                 <li>Cáncer.</li>
                 <li>40 días post-parto.</li>
             </ul>
+            <br class="clear">
+            <hr class="content-divider">
+            <div class="videos">
+                <a name="materialAdicional">
+                    <h1>MATERIAL ADICIONAL</h1>
+                </a>
+                <iframe src="https://www.youtube.com/embed/r8eRZ46Zk-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/kvJGgP41fuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/XDxlDKkXt2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/aEEw1dWtMf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
         <div id="to-top">

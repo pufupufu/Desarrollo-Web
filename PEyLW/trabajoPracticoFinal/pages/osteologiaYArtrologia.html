@@ -6,44 +6,48 @@
     <title>Anatomía y Masajes | Osteología y Artrología</title>
     <link href="../assets/css/estilos.css" type="text/css" rel="stylesheet">
     <link href="../assets/css/estilos-paginas-contenido.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../assets/js/index-display.js"></script>
 </head>
 
 <body>
     <div id="contenedor">
         <a name="top"></a>
         <header>
+            <img id="logo" src="../assets/images/todas/logoMasajes.png">
             <div class="h1-container">
                 <a href="../index.html">
                     <h1>Anatomía y Masajes</h1>
                 </a>
             </div>
-            <div class="nav-bar">
-                <div class="menu-container">
-                    <ul class="menu">
-                        <li class="first-menu-element">
-                            <a class="page-link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="piel.html">PIEL</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="actual-page" href="#">OSTEOLOGÍA Y ARTROLOGÍA</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="miologia.html">MIOLOG&Iacute;A</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="tecnicas.html">T&Eacute;CNICAS</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="page-link" href="contacto.html">ÚNETE</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </header>
+        <div class="nav-bar">
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="first-menu-element">
+                        <a class="page-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="piel.html">PIEL</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="actual-page" href="#">OSTEOLOGÍA Y ARTROLOGÍA</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="miologia.html">MIOLOG&Iacute;A</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="tecnicas.html">T&Eacute;CNICAS</a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="page-link" href="contacto.html">ÚNETE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-        <div class="content-index">
+        <button id="index-btn" onclick="buttonClick()" onmouseover="showMessage()" onmouseout="hideMessage()">MOSTRAR ÍNDICE</button>
+        <!-- <span id="message" class="message-off">Mostrar índice</span> -->
+        <div id="content-index" class="index-off">
             <h3>Índice de contenidos</h3>
             <ul class="index-list">
                 <li>
@@ -93,6 +97,9 @@
                         4.1. <a class="content-index-element" href="#cinturaEsc">Cintura escapular</a>
                     </li>
                 </ul>
+                <li>
+                    5. <a class="content-index-element" href="#materialAdicional">Material adicional</a>
+                </li>
             </ul>
         </div>
         <div class="content-container">
@@ -312,6 +319,15 @@
                 es el ACROMION que se articula con la clavícula. En el ángulo superior externo hay una CAVIDAD GLENOIDEA en donde se articula la cabeza del HÚMERO. En el extremo superior de esa cavidad nace la APÓFISIS CORACOIDES. En la cara anterior
                 del omoplato se encuentra la fosa subescapular.<br>En la cara posterior del omoplato la fosa supraespinosa (encima de la espina), e infraespinosa por debajo de la espina. En dichas fosas se alojan los músculos del mismo nombre.</p>
             <br class="clear">
+            <hr class="content-divider">
+            <div class="videos">
+                <a name="materialAdicional">
+                    <h1>MATERIAL ADICIONAL</h1>
+                </a>
+                <iframe src="https://www.youtube.com/embed/YLnwFy0-Noc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/UklaTul1Sjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/3260awNBdp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
         <div id="to-top">

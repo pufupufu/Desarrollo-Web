@@ -1,8 +1,32 @@
+/*Imagenes de cursos*/
+
 .course-container {
-    width: 80%;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-right: 10%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
     height: auto;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+}
+
+#preguntas-frecuentes {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#image-index {
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid black;
+    padding-bottom: 5%;
+}
+
+#img-index {
+    width: 100%;
+    height: 100%;
 }
 
 .course-container h1 {
@@ -23,6 +47,7 @@
 }
 
 .contact-redirection {
+    text-decoration: underline;
     color: black;
     font-size: 20px;
     border-radius: 10px;
@@ -68,6 +93,48 @@
 .course-item:hover .course-desc {
     transform: translateY(0%);
 }
+
+
+/* Estilos en el cuerpo de preguntas frecuentes */
+
+#container-preguntas {
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.collapsible {
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #BF3100;
+    color: white;
+    /* estilo al cursor al pararse en el elemento */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.collapsible:hover {
+    background-color: #e28059;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #FCAB10;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+/*Copyright*/
 
 #copyright-index {
     position: relative;
