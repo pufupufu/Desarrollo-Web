@@ -1,5 +1,6 @@
-function anios() {
+function anios(num) {
     var campo = document.getElementById('Anio');
+    campo.innerHTML = "<option>Año</option>";
     for (let index = 2003; index >= 1950; index--) {
         campo.innerHTML += "<option>" + index + "</option>";
     }
@@ -7,6 +8,7 @@ function anios() {
 
 function meses() {
     var campo = document.getElementById('Mes');
+    campo.innerHTML = "<option>Mes</option>";
     var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
     for (let index = 0; index < meses.length; index++) {
         campo.innerHTML += "<option>" + meses[index] + "</option>";
@@ -40,7 +42,7 @@ function dias() {
     }
 
     campo = document.getElementById('Dia');
-    campo.innerHTML = "<option>" + "Dia" + "</option>";
+    campo.innerHTML = "<option>Dia</option>";
     for (let index = 1; index <= cantDias; index++) {
         campo.innerHTML += "<option>" + index + "</option>";
     }

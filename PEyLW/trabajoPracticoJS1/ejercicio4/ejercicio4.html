@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 4 - Trabajo Práctico 1 JS</title>
+</head>
+
+<body>
+    <script>
+        var dato;
+        document.write("INCISO A:<br>");
+        dato = prompt("Nombre:", "");
+        document.write("Nombre: " + dato + "<br>");
+        dato = prompt("Apellido:", "");
+        document.write("Apellido: " + dato + "<br>");
+        dato = prompt("Estado civil: ", "");
+        document.write("Estado civil: " + dato + "<br>");
+        dato = prompt("Edad:", "");
+        document.write("Edad: " + dato + "<br>");
+        dato = prompt("Fecha de nacimiento:", "");
+        document.write("Fecha de nacimiento: " + dato + "<br>");
+        dato = prompt("DNI:", "");
+        document.write("DNI: " + dato + "<br>");
+    </script>
+    <script>
+        var num1, num2, confirmacion;
+        document.write("INCISO B:<br>");
+        num1 = prompt("Numero 1:");
+        num2 = prompt("Numero 2:");
+        var suma = parseInt(num1) + parseInt(num2);
+        document.write(num1 + " + " + num2 + " = " + suma + "<br>");
+        var resta = num1 - num2;
+        document.write(num1 + " - " + num2 + " = " + resta + "<br>");
+        var producto = num1 * num2;
+        document.write(num1 + " * " + num2 + " = " + producto + "<br>");
+        var division = num1 / num2;
+        document.write(num1 + " / " + num2 + " = " + division + "<br>");
+    </script>
+    <script>
+        var nombre, apellido, estadoCivil, edad, fechaNac, dni, confirmacion, arrayDatos;
+        document.write("INCISO C:<br>");
+        nombre = prompt("Nombre:", "");
+        apellido = prompt("Apellido:", "");
+        estadoCivil = prompt("Estado civil: ", "");
+        edad = prompt("Edad:", "");
+        fechaNac = prompt("Fecha de nacimiento:", "");
+        dni = prompt("DNI:", "");
+        confirmacion = confirm("¿Mostrar datos?");
+        if (confirmacion) {
+            document.write("Nombre: " + nombre + "<br>");
+            document.write("Apellido: " + apellido + "<br>");
+            document.write("Estado civil: " + estadoCivil + "<br>");
+            document.write("Edad: " + edad + "<br>");
+            document.write("Fecha de nacimiento: " + fechaNac + "<br>");
+            document.write("DNI: " + dni + "<br>");
+        } else {
+            alert("Usted eligió no mostrar los datos");
+        }
+    </script>
+</body>
+
+</html>
